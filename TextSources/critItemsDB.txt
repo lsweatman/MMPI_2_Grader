@@ -1,0 +1,201 @@
+:Acute Anxiety State (17 Items)
+2F:I have a good appetite.
+3F:I wake up fresh and rested most mornings.
+5T:I am easily awakened by noise.
+10F:I am about as able to work as I ever was.
+15T:I work under a great deal of tension.
+28T:I am bothered by an upset stomach several times a week.
+39T:My sleep is fitful and disturbed.
+59T:I am troubled by discomfort in the pit of my stomach every few days or oftener.
+140F:Most nights I go to sleep without thoughts or ideas bothering me.
+172T:I frequently notice my hand shakes when I try to do something.
+208F:I hardly ever notice my heart pounding and I am seldom short of breath.
+218T:I have periods of such great restlessness that I cannot sit long in a chair.
+223F:I believe I am no more nervous than most others.
+301T:I feel anxiety about something or someone almost all the time. 
+444T:I am a high-strung person.
+463T:Several times a week I feel as if something dreadful is about to happen.
+469T:I sometimes feel that I am about to go to pieces.
+:Threatened Assault (5 Items)
+37T:At times I feel like smashing things.
+85T:At times I have a strong urge to do something harmful or shocking.
+134T:At times I feel like picking a fist fight with someone.
+213T:I get mad easily and then get over it soon.
+389T:I am often said to be hotheaded.
+:Mental Confusion (11 Items)
+24T:Evil spirits possess me at times. 
+31T:I find it hard to keep my mind on a task or job.
+32T:I have had very peculiar and strange experiences.
+72T:My soul sometimes leaves my body.
+96T:I see things or animals or people around me that others do not see. 
+180T:There is something wrong with my mind. 
+198T:I often hear voices without knowing where they come from. 
+299T:I cannot keep my mind on one thing. 
+311T:I often feel as if things are not real.
+316T:I have strange and peculiar thoughts. 
+325T:I have more trouble concentrating than others seem to have.
+:Depressed Suicidal Ideation (22 Items)
+9F:My daily life is full of things that keep me interested.
+38T:I have had periods of days, weeks, or months when I couldn't take care of things because I couldn't get going. 
+65T:Most of the time I feel blue.
+71T:These days I find it hard not to give up hope of amounting to something. 
+75F:I usually feel that life is worthwhile. 
+92T:I don't seem to care what happens to me. 
+95F:I am happy most of the time. 
+130T:I certainly feel useless at times. 
+146T:I cry easily.
+215T:I brood a great deal.
+233T:i have difficulty in starting to do things. 
+273T:Life is a strain for me much of the time. 
+303T:Most of the time I wish I were dead.
+306T:No one cares much what happens to you.
+388F:I very seldom have spells of the blues.
+411T:At times I think I am no good at all. 
+454T:The future seems hopeless to me.
+485T:I often feel that I'm not as good as other people.
+506T:I have recently considered killing myself.
+518T:I have made lots of bad mistakes in my life.
+520T:Lately I have thought a lot about killing myself. 
+524T:No one knows it but I have tried to kill myself.
+:Situational Stress Due to Alcoholism (7 Items)
+125F:I believe that my home life is as pleasant as that of most people I know.
+264T:I have used alcohol excessively.
+487T:I have enjoyed using marijuana.
+489T:I have a drug or alcohol problem.
+502T:I have some habits that are really harmful.
+511T:Once a week or more I get high or drunk.
+518T:I have made lots of bad mistakes in my life.
+:Persecutory Ideas (16 Items)
+17T:I am sure I get a raw deal from life.
+42T:If people had not had it in for me, I would have been much more successful.
+99T:Someone has it in for me. 
+124T:I often wonder what hidden reason another person may have for doing something nice for me. 
+138T:I believe I am being plotted against.
+144T:I believe that I am being followed. 
+145T:I feel that i have often been punished without cause.
+162T:Someone has been trying to poison me.
+216T:Someone has been trying to rob me. 
+228T:There are persons who are tring to steal my thoughts and ideas.
+241T:It is safer to trust nobody.
+251T:I have often felt that strangers were looking at me critically.
+259T:I am sure I am being talked about. 
+314F:I have no enemies that really wish to harm me. 
+333T:People say vulgar and insulting things about me. 
+361T:Someone has been trying to influence my mind.
+:Anxiety and Tension (11 Items)
+15T:I work under a great deal of tension.
+17T:I am sure I get a raw deal from life.
+172T:I frequently notice my hand shakes when I try to do something.
+218T:I have periods of such great restlessness that I cannot sit long in a chair.
+223F:I believe I am no more nervous than most others.
+261F:I have very few fears compared to my friends. 
+299T:I cannot keep my mind on one thing. 
+301T:I feel anxiety about something or someone almost all the time.
+320T:I have been afraid of things or people that I knew could not hurt me. 
+405F:I am usually calm and not easily upset. 
+463T:Several times a week I feel as if something dreadful is about to happen.
+:Sleep Disturbance (6 Items)
+5T:I am easily awakened by noise.
+30T:I have nightmares every few nights.
+39T:My sleep is fitful and disturbed.
+140F:Most nights I go to sleep without thoughts or ideas bothering me.
+328T:Sometimes some unimportant thought will run through my mind and bother me for days.
+471T:I have often been frightened in the middle of the night.
+:Deviant Thinking and Experience (10 Items)
+32T:I have had very peculiar and strange experiences.
+60T:When I am with people, I am bothered by hearing very strange things. 
+96T:I see things or animals or people around me that others do not see. 
+122T:At times my thoughts have raced ahead faster than I could speak them.
+198T:I often hear voices without knowing where they come from. 
+298T:Peculiar odors come to me at times. 
+307T:At times I hear so well it bothers me. 
+316T:I have strange and peculiar thoughts. 
+319T:I hear strange things when I am alone. 
+427F:I have never seen a vision.
+:Antisocial Attitude (9 Items)
+27T:When people do me a wrong, I feel I should pay them back if I can, just for the principle of the thing.
+35T:Sometimes when I was young I stole things.
+84T:I was suspended from school one or more times for bad behavior
+105T:In school I was sometimes sent to the principal for bad behavior.
+227T:I don't blame people for trying to grab everything they can get in this world.
+240T:At times it has been impossible for me to keep from stealing of shoplifting something. 
+254T:Most people make friends because friends are lekly to be useful to them. 
+266F:I have never been in trouble with the law.
+324T:I can easly make other people afraid of me, and sometimes do for the fun of it. 
+:Problematic Anger (4 Items)
+85T:At times I have a strong urge to do something harmful or shocking.
+134T:At times I feel like picking a fist fight with someone.
+213T:I get mad easily and then get over it soon.
+389T:I am often said to be hotheaded.
+:Somatic Symptoms (16 Items)
+18T:I am troubled by attacks of nausea and vomiting.
+28T:I am bothered by an upset stomach several times a week.
+33F:I seldom worry about my health.
+40T:Much of the time my head seems to hurt all over.
+44T:Once a week or oftener I suddenly feel hot all over, for no real reason.
+47F:I am almost never bothered by pains over my heart or in my chest.
+53T:Parts of my body often have feelings like burning, tingling, crawling, or like "going to sleep".
+57F:I hardly ever feel pain in the back of my neck.
+59T:I am troubled by discomfort in the pit of my stomach every few days or oftener.
+101T:Often I feel as if there is a tight band around my head. 
+111T:I have a great deal of stomach trouble.
+142F:I have never had a fit or convulsion.
+159F:I have never had a fainting spell.
+164F:I seldom or never have dizzy spells.
+175T:I feel weak all over much of the time.
+176F:I have very few headaches.
+182T:I have had attacks in which I could not control my movements or speech but in which I knew what was going on around me. 
+224F:I have few or no pains.
+229T:I have had blank speels in which my activities were interrupted and I did not know what was going on around me.
+247T:I have numbness in one or more places on my skin. 
+255F:I do not often notice my ears ringing or buzzing.
+295F:I have never been paralyzed or had any unusual weakness of any of my muscles.
+464T:I feel tired a good deal of the time. 
+:Depression and Worry (16 Items)
+2F:I have a good appetite.
+3F:I wake up fresh and rested most mornings.
+10F:I am about as able to work as I ever was.
+65T:Most of the time I feel blue.
+73T:I am certainly lacking in self confidence.
+75F:I usually feel that life is worthwhile.
+130T:I certainly feel useless at times. 
+150T:Sometimes I feel as if I must injure either myself or someone else.
+165F:My memory seems to be alright.
+180T:There is something wrong with my mind. 
+273T:Life is a strain for me much of the time. 
+303T:Most of the time I wish I were dead.
+339T:I have sometimes felft that difficulties were piling up so high that I could not overcome them. 
+411T:At times I think I am no good at all. 
+415T:I worry quite a bit over possible misfortunes.
+454T:The future seems hopeless to me.
+:Deviant Beliefs (15 Items)
+42T:If people had not had it in for me, I would have been much more successful.
+99T:Someone has it in for me.
+106F:My speech  is the same as always. (Not faster or slower, no slurring or hoarseness)
+138T:I believe I am being plotted against.
+144T:I believe that I am being followed. 
+162T:Someone has been trying to poison me.
+216T:Someone has been trying to rob me. 
+228T:There are persons who are tring to steal my thoughts and ideas.
+259T:I have often felt that strangers were looking at me critically.
+314F:I have no enemies that really wish to harm me. 
+333T:People say vulgar and insulting things about me. 
+336T:Someone has control over my mind.
+355T:At one or more times in my life I felf that someone was making me do things by hypnotizing me. 
+361T:Someone has been trying to influence my mind.
+466T:Sometimes I am sure that other people can tell what I am thinking. 
+:Substance Abuse (3 Items)
+168T:I have periods in which I carried on activities without knowing later what I had been doing. 
+264T:I have used alcohol excessively.
+429F:Except by doctor's orders I never take drugs or sleeping pills.
+:Family Conflict (4 Items)
+21T:At times I have fits of laughing and crying that I cannot control.
+83F:I have very few quarrels with members of my family.
+125F:I believe that my home life is as pleasant as that of most people I know.
+288T:My parents and family find more fault with me than they should.
+:Sexual Concern and Deviation (5 Items, 62 removed)
+12F:My sex life is satisfactory.
+34F:I have never bene in trouble becuase of my sexual behavior.
+121F:I have never indulged in any unusual sex practices.
+166T:I am worried about sex.
+268T:I wish I were not bothered by thoughts about sex. 

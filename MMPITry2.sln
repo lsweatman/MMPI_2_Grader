@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMPITry2", "MMPITry2.csproj", "{2F28886A-57B6-4343-B797-6DF947CE3FC4}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MMPI2Setup", "MMPI2Setup\MMPI2Setup.vdproj", "{AA377A30-6068-41BC-97C2-544F53525A8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F28886A-57B6-4343-B797-6DF947CE3FC4}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{2F28886A-57B6-4343-B797-6DF947CE3FC4}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{2F28886A-57B6-4343-B797-6DF947CE3FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F28886A-57B6-4343-B797-6DF947CE3FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F28886A-57B6-4343-B797-6DF947CE3FC4}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F28886A-57B6-4343-B797-6DF947CE3FC4}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{2F28886A-57B6-4343-B797-6DF947CE3FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F28886A-57B6-4343-B797-6DF947CE3FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F28886A-57B6-4343-B797-6DF947CE3FC4}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{2F28886A-57B6-4343-B797-6DF947CE3FC4}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{AA377A30-6068-41BC-97C2-544F53525A8E}.CD_ROM|Any CPU.ActiveCfg = Release
+		{AA377A30-6068-41BC-97C2-544F53525A8E}.Debug|Any CPU.ActiveCfg = Debug
+		{AA377A30-6068-41BC-97C2-544F53525A8E}.DVD-5|Any CPU.ActiveCfg = Debug
+		{AA377A30-6068-41BC-97C2-544F53525A8E}.Release|Any CPU.ActiveCfg = Release
+		{AA377A30-6068-41BC-97C2-544F53525A8E}.SingleImage|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
