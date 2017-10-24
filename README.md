@@ -1,7 +1,11 @@
 # MMPI_2_Grader
 UI Program to grade the Minnesota Multiphasic Personality Inventory test. 
 
-# Usage Flow
+## Screenshots
+![MainWindow](Images/MainWindow.PNG "Main Window")
+![OutputPDFPage](Images/PDFOutput.PNG "PDF First Page output")
+
+## Usage Flow
 1. Click "1. Enter Data" if you want to enter a new test taker
 2. Lock in user data when finished. A CSV file (last+first.csv) is created in C:\MMPI2
 3. If you want to view the csv in excel then click "2. View User File"
