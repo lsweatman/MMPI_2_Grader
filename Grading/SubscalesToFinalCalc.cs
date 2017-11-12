@@ -103,15 +103,15 @@ namespace MMPI_Try_2.Grading
                 if (line[0] == ':')
                 {
                     line.Remove(0, 1);
-                    critOutput += "\r\n" + line.Substring(1, line.Length - 1) + "\r\n";
-                    if (outputtedLines > 40)
+                    critOutput += line.Substring(1, line.Length - 1) + "\r\n";
+                    if (outputtedLines > 50)
                     {
                         critPage2 += "\r\n" + line.Substring(1, line.Length - 1) + "\r\n";
                     }
                     else
                     {
                         critPage1 += "\r\n" + line.Substring(1, line.Length - 1) + "\r\n";
-                        outputtedLines++;
+                        outputtedLines += 2;
                     }
                 }
                 // Entries within each set
@@ -128,12 +128,12 @@ namespace MMPI_Try_2.Grading
                         questionTF = true;
                     else
                         questionTF = false;
-                    if (userAnswers[questionNumber - 1] == questionTF && outputtedLines > 40)
+                    if (userAnswers[questionNumber - 1] == questionTF && outputtedLines > 50)
                     {
                         critPage2 += line + "\r\n";
                         outputtedLines++;
                     }
-                    else if (userAnswers[questionNumber - 1] == questionTF && outputtedLines <= 40)
+                    else if (userAnswers[questionNumber - 1] == questionTF && outputtedLines <= 50)
                     {
                         critPage1 += line + "\r\n";
                         outputtedLines++;

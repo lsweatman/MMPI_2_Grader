@@ -153,7 +153,6 @@ namespace MMPI_Try_2.Generation
                 {
                     graph2.DrawString(scaleNames[i], font, XBrushes.White, new XRect(330, (i * 28.66) + 41, 0, 0), XStringFormats.TopLeft);
                     graph3.DrawString(scaleNames[i + 26], font, XBrushes.White, new XRect(328, (i * 28.66) + 41, 0, 0), XStringFormats.TopLeft);
-                    
                 }
 
                 
@@ -168,7 +167,10 @@ namespace MMPI_Try_2.Generation
             if (File.Exists(pdfFilename))
                 MessageBox.Show("PDF Success at " + pdfFilename);
             else
+            {
                 MessageBox.Show("PDF Failed at " + pdfFilename);
+                return false;
+            }
 
             return true;
         }

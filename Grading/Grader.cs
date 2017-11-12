@@ -109,7 +109,14 @@ namespace MMPI_Try_2
 
             StreamWriter indivOutFile = new StreamWriter(indivFilePath);
             indivOutFile.Write(testTaker.lastName + "," + testTaker.firstName + "," + testTaker.age + "," + testTaker.date + "\n");
-            indivOutFile.Write(testTaker.gender + "\n");
+            if (testTaker.gender)
+            {
+                indivOutFile.Write("Male\n");
+            }
+            else
+            {
+                indivOutFile.Write("Female\n");
+            }
             indivOutFile.Close();
         }
 
@@ -147,7 +154,7 @@ namespace MMPI_Try_2
 
             // Pass the gender to the RawScale population class
             RawScales staticRawScales = new RawScales();
-            if (line1Strip == "m" || line1Strip == "M")
+            if (line1Strip == "M" || line1Strip == "m")
             {
                 testTaker.gender = true; // Male 
                 staticRawScales.setGender(true);
@@ -234,11 +241,15 @@ namespace MMPI_Try_2
             indivFilePath = openFileDialog1.FileName; // Feed to backend class
 
             // TODO: change this to read all lines at once
+            string[] allLines = File.ReadAllLines(openFileDialog1.FileName);
+            if (allLines.Length != 569)
+            {
+                return false;
+            }
             for (int i = 2; i < 569; i++)
             {
-                string line = File.ReadLines(openFileDialog1.FileName).Skip(i).Take(1).First();
                 // Just in case someone edits the csv with wacky info
-                if (line != "True" && line != "False" && line != "TRUE" && line != "FALSE" && line != "")
+                if (allLines[i] != "True" && allLines[i] != "False" && allLines[i] != "TRUE" && allLines[i] != "FALSE" && allLines[i] != "")
                 {
                     return false;
                 }
