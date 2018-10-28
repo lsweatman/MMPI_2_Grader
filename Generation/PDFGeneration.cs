@@ -4,6 +4,7 @@ using PdfSharp;
 using PdfSharp.Drawing;
 using PdfSharp.Drawing.Layout;
 using PdfSharp.Pdf;
+using System;
 
 namespace MMPI_Try_2.Generation
 {
@@ -138,10 +139,18 @@ namespace MMPI_Try_2.Generation
             graphBasic.DrawImage(XImage.FromFile(baseFolder + "logo.jpg"), new XRect(40, 15, 250, 110));
 
             // Draw the charts onto the pdf
-            graphBasic.DrawImage(XImage.FromFile(indivBasePath + "\\" + testTaker.lastName + testTaker.firstName + "1.png"), new XRect(30, 120, 760, 450));
-            graph2.DrawImage(XImage.FromFile(indivBasePath + "\\" + testTaker.lastName + testTaker.firstName + "2.png"), new XRect(-25, 0, 830, 615));
-            graph3.DrawImage(XImage.FromFile(indivBasePath + "\\" + testTaker.lastName + testTaker.firstName + "3.png"), new XRect(-25, 0, 830, 615));
-            graph4.DrawImage(XImage.FromFile(indivBasePath + "\\" + testTaker.lastName + testTaker.firstName + "4.png"), new XRect(-25, 0, 830, 615));
+            try
+            {
+                graphBasic.DrawImage(XImage.FromFile(indivBasePath + "\\" + testTaker.lastName + testTaker.firstName + "1.png"), new XRect(30, 120, 760, 450));
+                graph2.DrawImage(XImage.FromFile(indivBasePath + "\\" + testTaker.lastName + testTaker.firstName + "2.png"), new XRect(-25, 0, 830, 615));
+                graph3.DrawImage(XImage.FromFile(indivBasePath + "\\" + testTaker.lastName + testTaker.firstName + "3.png"), new XRect(-25, 0, 830, 615));
+                graph4.DrawImage(XImage.FromFile(indivBasePath + "\\" + testTaker.lastName + testTaker.firstName + "4.png"), new XRect(-25, 0, 830, 615));
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("PDF Failed: Image in use - Try restarting the program");
+                return false;
+            }
 
             if (barLabel.Checked)
             {

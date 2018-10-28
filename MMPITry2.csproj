@@ -73,6 +73,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EditAnswer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditAnswer.Designer.cs">
+      <DependentUpon>EditAnswer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Grading\Grader.cs" />
     <Compile Include="Generation\ChartGenerator.cs" />
     <Compile Include="PrimaryUI.cs">
@@ -86,9 +92,14 @@
     <Compile Include="Grading\SubscalesToFinalCalc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScanAnalysis\ImageVerify.cs" />
+    <Compile Include="ScanAnalysis\UserAnswersPage.cs" />
     <Compile Include="Static\AdjustedScales.cs" />
     <Compile Include="Static\RawScales.cs" />
     <Compile Include="Static\ScaleAbbreviations.cs" />
+    <EmbeddedResource Include="EditAnswer.resx">
+      <DependentUpon>EditAnswer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PrimaryUI.resx">
       <DependentUpon>PrimaryUI.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +146,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

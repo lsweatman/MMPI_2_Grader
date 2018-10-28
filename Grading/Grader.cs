@@ -99,15 +99,9 @@ namespace MMPI_Try_2
             unscaledTotals.Add(subList4);
         }
 
-        public void basicToFile()
+        public void basicInfoToFile()
         {
-            string indivEnd = testTaker.lastName + testTaker.firstName + ".csv";
-            string indivDirPath = indivBasePath + testTaker.lastName + testTaker.firstName;
-            DirectoryInfo di = Directory.CreateDirectory(indivDirPath);
-            indivFilePath = indivDirPath + "\\" + indivEnd;
-            indivBasePath = indivDirPath + "\\";
-
-            StreamWriter indivOutFile = new StreamWriter(indivFilePath);
+            StreamWriter indivOutFile = new StreamWriter(indivFilePath, false);
             indivOutFile.Write(testTaker.lastName + "," + testTaker.firstName + "," + testTaker.age + "," + testTaker.date + "\n");
             if (testTaker.gender)
             {
@@ -232,6 +226,10 @@ namespace MMPI_Try_2
             openFileDialog1.Filter = "CSV Files (.csv)|*.csv";
             openFileDialog1.FilterIndex = 1;
             openFileDialog1.Multiselect = false;
+            if (indivBasePath != @"C:\MMPI2\")
+            {
+                openFileDialog1.InitialDirectory = indivBasePath;
+            }
             DialogResult result = openFileDialog1.ShowDialog();
             if (result != DialogResult.OK) // Escape if no choice is made
             {

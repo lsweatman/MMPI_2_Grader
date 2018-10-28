@@ -18,7 +18,5 @@ namespace MMPI_Try_2
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new PrimaryUI());
         }
-
-        
     }
 }

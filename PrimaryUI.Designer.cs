@@ -76,6 +76,7 @@
             this.BarLabel = new System.Windows.Forms.CheckBox();
             this.nonAnswer = new System.Windows.Forms.Button();
             this.resetButton = new System.Windows.Forms.Button();
+            this.scanScore = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart3)).BeginInit();
@@ -86,7 +87,7 @@
             // 
             this.enterDataButton.Location = new System.Drawing.Point(550, 78);
             this.enterDataButton.Name = "enterDataButton";
-            this.enterDataButton.Size = new System.Drawing.Size(150, 98);
+            this.enterDataButton.Size = new System.Drawing.Size(150, 81);
             this.enterDataButton.TabIndex = 27;
             this.enterDataButton.Text = "1. Enter Data";
             this.enterDataButton.UseVisualStyleBackColor = true;
@@ -94,9 +95,9 @@
             // 
             // scoreDataButton
             // 
-            this.scoreDataButton.Location = new System.Drawing.Point(550, 286);
+            this.scoreDataButton.Location = new System.Drawing.Point(550, 252);
             this.scoreDataButton.Name = "scoreDataButton";
-            this.scoreDataButton.Size = new System.Drawing.Size(150, 98);
+            this.scoreDataButton.Size = new System.Drawing.Size(150, 81);
             this.scoreDataButton.TabIndex = 22;
             this.scoreDataButton.Text = "3. Score Data";
             this.scoreDataButton.UseVisualStyleBackColor = true;
@@ -105,11 +106,11 @@
             // printCurrentButton
             // 
             this.printCurrentButton.Enabled = false;
-            this.printCurrentButton.Location = new System.Drawing.Point(550, 390);
+            this.printCurrentButton.Location = new System.Drawing.Point(550, 426);
             this.printCurrentButton.Name = "printCurrentButton";
-            this.printCurrentButton.Size = new System.Drawing.Size(150, 101);
+            this.printCurrentButton.Size = new System.Drawing.Size(150, 81);
             this.printCurrentButton.TabIndex = 25;
-            this.printCurrentButton.Text = "4. Print Current User";
+            this.printCurrentButton.Text = "5. Print Current User";
             this.printCurrentButton.UseVisualStyleBackColor = true;
             this.printCurrentButton.Click += new System.EventHandler(this.printCurrentButton_Click);
             // 
@@ -287,9 +288,9 @@
             // 
             // viewUserFile
             // 
-            this.viewUserFile.Location = new System.Drawing.Point(550, 182);
+            this.viewUserFile.Location = new System.Drawing.Point(550, 165);
             this.viewUserFile.Name = "viewUserFile";
-            this.viewUserFile.Size = new System.Drawing.Size(150, 98);
+            this.viewUserFile.Size = new System.Drawing.Size(150, 81);
             this.viewUserFile.TabIndex = 31;
             this.viewUserFile.Text = "2. View User File";
             this.viewUserFile.UseVisualStyleBackColor = true;
@@ -453,13 +454,25 @@
             // 
             // resetButton
             // 
-            this.resetButton.Location = new System.Drawing.Point(550, 497);
+            this.resetButton.Enabled = false;
+            this.resetButton.Location = new System.Drawing.Point(550, 513);
             this.resetButton.Name = "resetButton";
-            this.resetButton.Size = new System.Drawing.Size(150, 98);
+            this.resetButton.Size = new System.Drawing.Size(150, 81);
             this.resetButton.TabIndex = 48;
-            this.resetButton.Text = "5. Reset";
+            this.resetButton.Text = "6. Reset";
             this.resetButton.UseVisualStyleBackColor = true;
             this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
+            // 
+            // scanScore
+            // 
+            this.scanScore.Enabled = false;
+            this.scanScore.Location = new System.Drawing.Point(550, 339);
+            this.scanScore.Name = "scanScore";
+            this.scanScore.Size = new System.Drawing.Size(150, 81);
+            this.scanScore.TabIndex = 49;
+            this.scanScore.Text = "4. Scan and Score";
+            this.scanScore.UseVisualStyleBackColor = true;
+            this.scanScore.Click += new System.EventHandler(this.scanScore_Click);
             // 
             // PrimaryUI
             // 
@@ -467,6 +480,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(746, 675);
+            this.Controls.Add(this.scanScore);
             this.Controls.Add(this.resetButton);
             this.Controls.Add(this.nonAnswer);
             this.Controls.Add(this.BarLabel);
@@ -546,6 +560,7 @@
         private System.Windows.Forms.CheckBox BarLabel;
         private System.Windows.Forms.Button nonAnswer;
         private System.Windows.Forms.Button resetButton;
+        private System.Windows.Forms.Button scanScore;
     }
 }
 
