@@ -119,7 +119,7 @@
 105T:In school I was sometimes sent to the principal for bad behavior.
 227T:I don't blame people for trying to grab everything they can get in this world.
 240T:At times it has been impossible for me to keep from stealing of shoplifting something. 
-254T:Most people make friends because friends are lekly to be useful to them. 
+254T:Most people make friends because friends are likely to be useful to them. 
 266F:I have never been in trouble with the law.
 324T:I can easly make other people afraid of me, and sometimes do for the fun of it. 
 :Problematic Anger (4 Items)
@@ -177,7 +177,7 @@
 162T:Someone has been trying to poison me.
 216T:Someone has been trying to rob me. 
 228T:There are persons who are tring to steal my thoughts and ideas.
-259T:I have often felt that strangers were looking at me critically.
+259T:I am sure I am being talked about.
 314F:I have no enemies that really wish to harm me. 
 333T:People say vulgar and insulting things about me. 
 336T:Someone has control over my mind.
@@ -195,7 +195,7 @@
 288T:My parents and family find more fault with me than they should.
 :Sexual Concern and Deviation (5 Items, 62 removed)
 12F:My sex life is satisfactory.
-34F:I have never bene in trouble becuase of my sexual behavior.
+34F:I have never been in trouble becuase of my sexual behavior.
 121F:I have never indulged in any unusual sex practices.
 166T:I am worried about sex.
 268T:I wish I were not bothered by thoughts about sex. 

@@ -49,7 +49,7 @@ namespace MMPI_Try_2.ScanAnalysis
             page.Save(newFileName);
             Process.Start(newFileName);
 
-            if (nonAnswers.Count > 6 && doubleAnswers.Count > 0)
+            /*if (nonAnswers.Count > 6 && doubleAnswers.Count > 0)
             {
                 MessageBox.Show("There are " + nonAnswers.Count +
                                 " non-answers. \r\nThere are also " + doubleAnswers.Count +
@@ -63,7 +63,7 @@ namespace MMPI_Try_2.ScanAnalysis
             {
                 MessageBox.Show("There are " + doubleAnswers.Count +
                                 " double answers. (If unchanged, they will count as non-answers.");
-            }
+            }*/
         }
 
         ~UserAnswersPage()

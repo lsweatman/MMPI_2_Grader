@@ -22,12 +22,6 @@ namespace MMPI_Try_2.ScanAnalysis
             public int y;
         }
 
-        private struct AnswerPairCoordinate
-        {
-            public Coordinate trueCoord;
-            public Coordinate falseCoord;
-        }
-
         private Bitmap page;
         private Padding pagePadding;
         private double yAxisGuides;
@@ -36,7 +30,6 @@ namespace MMPI_Try_2.ScanAnalysis
         private Coordinate[] allRightBoxes = new Coordinate[63];
         private Coordinate[] allBottomBoxes = new Coordinate[8]; // These will be in reverse order!
         private List<UserAnswersPage.CoordPairings> trueFalseHolder = new List<UserAnswersPage.CoordPairings>();
-        private Graphics g;
 
         public ImageVerify(string file)
         {
@@ -385,7 +378,7 @@ namespace MMPI_Try_2.ScanAnalysis
                 }
                 offset += 4;
             }
-            page.Save(@"C:\MMPI2\first2.png");
+            //page.Save(@"C:\MMPI2\first2.png");
             isValid = true;
         }
 
@@ -463,7 +456,7 @@ namespace MMPI_Try_2.ScanAnalysis
                 return false;
             }
             // Debug
-            page.Save(@"C:\MMPI2\cornerTest.png");
+            //page.Save(@"C:\MMPI2\cornerTest.png");
 
             // This section goes down the page and gets the position of all the estimated centers
             //double yAxisGuides = page.Width * 0.967578;
@@ -498,7 +491,7 @@ namespace MMPI_Try_2.ScanAnalysis
                 startYCoord++;
                 
             }
-            page.Save(@"C:\MMPI2\rightTest.png");
+            //page.Save(@"C:\MMPI2\rightTest.png");
             if (counter < 63)
             {
                 errorMessage = "Couldn't find all the boxes along the right side\nSee C:\\MMPI2\\rightTest.png";
@@ -552,7 +545,7 @@ namespace MMPI_Try_2.ScanAnalysis
                 return false;
             }
             //Debug
-            page.Save(@"C:\MMPI2\bottomTest.png");
+            //page.Save(@"C:\MMPI2\bottomTest.png");
 
             return validYCoords;
         }
@@ -579,14 +572,14 @@ namespace MMPI_Try_2.ScanAnalysis
             {
                 drawBoxSolid(item, yCoord, 45, 45, Color.Red);
             }
-            page.Save(@"C:\MMPI2\test.png");
+            //page.Save(@"C:\MMPI2\test.png");
             Color pixel;
             foreach (int position in boxXPositions)
             {
                 pixel = page.GetPixel(position, yCoord);
                 if (pixel.R >= 128 && pixel.G >= 128 && pixel.B >= 128)
                 {
-                    page.Save(@"C:\MMPI2\test.png");
+                    //page.Save(@"C:\MMPI2\test.png");
                     return false;
                 }
                 else

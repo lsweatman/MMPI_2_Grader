@@ -402,24 +402,14 @@ namespace MMPI_Try_2
             }
             GC.Collect();
 
-            // Ask the user if corrections need to be made
-            string messageBoxText = "Do you want to make any changes?";
-            string messageCaption = "Scan Results";
-            MessageBoxButtons messageButtons = MessageBoxButtons.YesNoCancel;
-            MessageBoxIcon messageIcon = MessageBoxIcon.Warning;
-
-            // Get result
-            DialogResult changeResult = MessageBox.Show(messageBoxText, messageCaption, messageButtons, messageIcon);
-            if (changeResult == DialogResult.Yes)
+            // Launches new form modally
+            using (EditAnswer answerChanger = new EditAnswer(newInfo, populateScores.getNonAnswers(), populateScores.getDoubleAnswers()))
             {
-                // Launches new form modally
-                using (EditAnswer answerChanger = new EditAnswer(newInfo, populateScores.getNonAnswers(), populateScores.getDoubleAnswers()))
-                {
-                    answerChanger.ShowDialog();
-                    newInfo = answerChanger.getNewInfo();
-                    answerChanger.Dispose();
-                }
+                answerChanger.ShowDialog();
+                newInfo = answerChanger.getNewInfo();
+                answerChanger.Dispose();
             }
+            
             int nullCounter = 0;
             foreach (bool? answer in newInfo)
             {
